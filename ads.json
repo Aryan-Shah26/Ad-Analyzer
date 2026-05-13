@@ -1,0 +1,97 @@
+[
+    {
+        "id" : 1,
+        "image_path" : "Ads/457495309_2046697095746669_5947363409638573993_n.jpg",
+        "copy" : "Your never-ending playlist 🤝 up to 42 HRS playtime. Change the way you experience sound with our best-selling Airdopes 141. Bag It NOW!",
+        "platform" : "Instagram, Facebook",
+        "brand" : "boAt"
+    },
+
+    {
+        "id" : 2,
+        "image_path" : "Ads/546623759_1132398035456147_269572506456163941_n.jpg",
+        "copy" : "Experience every note with clarity. Get boAt signature sound & AI ENx™ with Wind Noise Reduction with the Airdopes Supreme.",
+        "platform" : "Instagram, Facebook",
+        "brand" : "boAt"
+    },
+
+    {
+        "id" : 3,
+        "image_path" : "Ads/465794845_1084977076614168_671476639214116606_n.jpg",
+        "copy" : "Experience seamless sound with boAt Airdopes 161. Enjoy long-lasting playtime, quick charging, and crystal-clear calls.",
+        "platform" : "Instagram, Facebook",
+        "brand" : "boAt"
+    },
+
+    {
+        "id" : 4,
+        "image_path" : "Ads/648834002_1078541724484462_6415614987583497254_n.jpg",
+        "copy" : "Built for daily listening. Airdopes 311 Pro delivers powerful sound, fast charging and 150 minutes of playback.",
+        "platform" : "Instagram, Facebook, Threads",
+        "brand" : "boAt"
+    },
+
+    {
+        "id" : 5,
+        "image_path" : "Ads/542752728_3364688357046345_3793928773035920024_n.jpg",
+        "copy" : "Why stop the beat when you can go 60 hours non-stop? Fast charge, fab sound. Buy yours today",
+        "platform" : "Instagram, Facebook, Threads",
+        "brand" : "boAt"
+    },
+
+    {
+        "id" : 6,
+        "image_path" : "Ads/666313603_1279657647636781_1012306124433711569_n.jpg",
+        "copy" : "Built for daily listening. Airdopes 311 Pro delivers powerful sound, fast charging and 150 minutes of playback.",
+        "platform" : "Instagram, Facebook",
+        "brand" : "boAt"
+    },
+
+    {
+        "id" : 7,
+        "image_path" : "Ads/580568809_1826893858190740_6026189848694382676_n.jpg",
+        "copy" : "STOP! Don't scroll past this. The bestsellers are on a price drop. Use VIBE500 to get ₹500 OFF and make them yours now.",
+        "platform" : "Instagram, Facebook",
+        "brand" : "boAt"
+    },
+
+    {
+        "id" : 8,
+        "image_path" : "Ads/586395670_857256553351533_490700410051870318_n.jpg",
+        "copy" : "Buy boAt directly from boAt website for extended warranty, exclusive deals, and extra rewards. Don't miss out, shop now.",
+        "platform" : "Instagram, Facebook",
+        "brand" : "boAt"
+    },
+
+    {
+        "id" : 9,
+        "image_path" : "Ads/466132929_906496271440614_8847123455575472711_n.jpg",
+        "copy" : "Enjoy music, movies, gaming and everything in between uninterrupted for up to 60 hours with boAt Airdopes 131. \nShop now.",
+        "platform" : "Instagram, Facebook",
+        "brand" : "boAt"
+    },
+
+    {
+        "id" : 10,
+        "image_path" : "Ads/597477493_834443509422810_7859440843027744602_n.jpg",
+        "copy" : "Power your day wirelessly with boAt EnergyShroom PB310. It comes with 10000mAh capacity, 15W wireless charging, 22.5W fast charging and 3 output ports for all your devices.​",
+        "platform" : "Instagram, Facebook",
+        "brand" : "boAt"
+    },
+
+    {
+        "id" : 11,
+        "image_path" : "Ads/634708144_936347389063320_6087310130298765034_n.jpg",
+        "copy" : "Sound that surrounds you, wherever you go. The Stone Arc Series brings boAt Spatial Audio, bold visuals and up to 12hrs playback for music that stays with you longer.​",
+        "platform" : "Instagram, Facebook",
+        "brand" : "boAt"
+    },
+
+    {
+        "id" : 12,
+        "image_path" : "Ads/460283080_8388011741289962_212046376333380702_n.jpg",
+        "copy" : "Personalise your gift with custom engraving for just  ₹69! Limited-time offer, only on boAt's website.",
+        "platform" : "Instagram, Facebook",
+        "brand" : "boAt"
+    }
+]
