@@ -164,9 +164,9 @@ with tab2:
 
     medals = {1: "🥇", 2: "🥈", 3: "🥉"}
     for rank, r in enumerate(sorted_results, 1):
+        st.image(r["image_path"], width=90)
         badge = medals.get(rank, f"#{rank}")
         col_rank, col_img, col_detail = st.columns([0.4, 0.8, 3.5])
-        st.image(r["image_path"], width=90)
 
     with col_rank:
         st.markdown(f"## {badge}")
