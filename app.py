@@ -66,10 +66,10 @@ with st.sidebar :
     st.divider()
     st.markdown("**Scoring Dimensions**")
     st.markdown("""
-                -Hook Strength /25
-                -CTA Clarity /25
-                -Visual -copy alignment /25
-                -Offer clarity /25""")
+                - Hook Strength /25
+- CTA Clarity /25  
+- Visual-Copy Alignment /25
+- Offer Clarity /25""")
     
 
 # Run analysis
@@ -162,24 +162,19 @@ with tab1:
 with tab2:
     st.subheader("Performance Ranking")
 
-    medals = {1: "🥇", 2: "🥈", 3: "🥉"}
     for rank, r in enumerate(sorted_results, 1):
-        st.image(r["image_path"], width=90)
-        badge = medals.get(rank, f"#{rank}")
-        col_rank, col_img, col_detail = st.columns([0.4, 0.8, 3.5])
+        medal = {1: "🥇", 2: "🥈", 3: "🥉"}.get(rank, f"#{rank}")
+        col_img, col_detail = st.columns([1, 4])
 
-    with col_rank:
-        st.markdown(f"## {badge}")
-    
-    # with col_img :
-    #     st.image(f["image_path"], width=90)
+        with col_img:
+            st.image(r["image_path"], use_container_width=True)
 
-    with col_detail:
-        st.markdown(f"**Ad {r['id']}** · {r['visual_style']} · {r['platform']}")
-        st.progress(r["total_score"] / 100, text=f"{r['total_score']}/100")
-        st.caption(r["verdict"])
-    
-    st.divider()
+        with col_detail:
+            st.markdown(f"**{medal} Ad {r['id']}** · {r['visual_style']} · {r['platform']}")
+            st.progress(r["total_score"] / 100, text=f"{r['total_score']}/100")
+            st.caption(r["verdict"])
+
+        st.divider()
 
 
     if ideas.get("top_performer_patterns") :
